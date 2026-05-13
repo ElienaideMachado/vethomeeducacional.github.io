@@ -169,6 +169,21 @@
             .hero-content h1 { font-size: 2.2rem; }
         }
 
+
+         /* DEPOIMENTOS */
+        .testimonials { background-color: var(--primary); color: var(--white); }
+        .testimonials h2 { color: var(--white); }
+        .testimonial-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .testimonial-card { 
+            background: rgba(255,255,255,0.05); padding: 40px; border-radius: 10px; 
+            position: relative; transition: 0.3s; border: 1px solid rgba(255,255,255,0.1);
+        }
+        .testimonial-card:hover { background: rgba(255,255,255,0.1); }
+        .quote-icon { font-family: 'Playfair Display', serif; font-size: 4rem; color: var(--secondary); position: absolute; top: 10px; left: 20px; opacity: 0.4; }
+        .testimonial-text { font-style: italic; font-size: 1rem; margin-bottom: 25px; position: relative; z-index: 1; }
+        .testimonial-author { display: block; font-weight: 600; color: var(--secondary); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
+
+
         /* GALERIA */
 #galeria {
     background: #ffffff;
